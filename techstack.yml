@@ -1,12 +1,26 @@
 repo_name: bob-wise0/requirements.txt.vim
-report_id: 4df0e424a23319f5071a75ce8b71b3e8
+report_id: 295ef14e6a2509d85738766c29c85d40
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-08T21:00:54+00:00'
+timestamp: '2024-03-28T08:19:54+00:00'
 requested_by: raimon49
 provider: github
 branch: master
-detected_tools_count: 9
+detected_tools_count: 14
 tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/bob-wise0/requirements.txt.vim/blob/master/examples/dev-requirements.txt
+  detection_source: examples/dev-requirements.txt
+  last_updated_by: raimon
+  last_updated_on: 2015-12-13 08:52:22.000000000 Z
 - name: Jinja
   description: Full featured template engine for Python
   website_url: https://palletsprojects.com/p/jinja/
@@ -17,8 +31,10 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
-  detection_source_url: examples/dev-requirements.txt
-  detection_source: examples/requirements.txt
+  detection_source_url: https://github.com/bob-wise0/requirements.txt.vim/blob/master/examples/dev-requirements.txt
+  detection_source: examples/dev-requirements.txt
+  last_updated_by: raimon
+  last_updated_on: 2021-03-31 10:36:19.000000000 Z
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
     on simplicity and productivity
@@ -28,6 +44,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/bob-wise0/requirements.txt.vim
   detection_source: Repo Metadata
 - name: Flask
   description: A microframework for Python based on Werkzeug, Jinja 2 and good intentions
@@ -39,8 +56,10 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img-dev.stackshare.io/service/1001/default_6d109315b60108628b7cd3e159b84645c31ef0e2.png
-  detection_source_url: examples/prod-requirements.in
-  detection_source: examples/prod-requirements.txt
+  detection_source_url: https://github.com/bob-wise0/requirements.txt.vim/blob/master/examples/prod-requirements.in
+  detection_source: examples/dev-requirements.txt
+  last_updated_by: raimon
+  last_updated_on: 2021-03-31 10:36:19.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -49,6 +68,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/bob-wise0/requirements.txt.vim
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -58,7 +78,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/bob-wise0/requirements.txt.vim/blob/master/.github/workflows/ruby.yml
   detection_source: ".github/workflows/ruby.yml"
+  last_updated_by: raimon
+  last_updated_on: 2020-10-03 10:51:45.000000000 Z
 - name: RubyGems
   description: Easily download, install, and use ruby software packages on your system
   website_url: https://rubygems.org/
@@ -67,17 +90,35 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/bob-wise0/requirements.txt.vim/blob/master/Gemfile
   detection_source: Gemfile
+  last_updated_by: raimon
+  last_updated_on: 2015-11-28 15:05:47.000000000 Z
 - name: Zope
-  description: 'A free and open source web application server written in the object-oriented
-    programming language “Python” '
+  description: A free and open source web application server written in the object-oriented
+    programming language “Python”
   website_url: https://www.zope.org
   open_source: true
   hosted_saas: false
   category: Application Hosting
   sub_category: Web Servers
   image_url: https://img.stackshare.io/service/6969/zopeHIres_400x400.jpg
+  detection_source_url: https://github.com/bob-wise0/requirements.txt.vim/blob/master/examples/requirements.txt
   detection_source: examples/requirements.txt
+  last_updated_by: raimon
+  last_updated_on: 2015-12-13 08:52:22.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/bob-wise0/requirements.txt.vim/blob/master/examples/dev-requirements.txt
+  detection_source: examples/dev-requirements.txt
+  last_updated_by: raimon
+  last_updated_on: 2015-12-13 08:52:22.000000000 Z
 - name: pytest
   description: A full-featured Python testing tool to help you write better programs
   website_url: http://pytest.org/latest/
@@ -88,8 +129,40 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
-  detection_source_url: examples/dev-requirements.txt
+  detection_source_url: https://github.com/bob-wise0/requirements.txt.vim/blob/master/examples/dev-requirements.txt
   detection_source: examples/dev-requirements.txt
+  last_updated_by: raimon
+  last_updated_on: 2021-03-31 10:36:19.000000000 Z
+- name: Werkzeug
+  website_url: https://palletsprojects.com/p/werkzeug/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/11076/iwoLyNPI_normal.jpg
+  detection_source_url: https://github.com/bob-wise0/requirements.txt.vim/blob/master/examples/dev-requirements.txt
+  detection_source: examples/dev-requirements.txt
+  last_updated_by: raimon
+  last_updated_on: 2021-03-31 10:36:19.000000000 Z
+- name: docutils
+  description: "http://t.co/lH6rcPxBja Service Outage and other informational alerts.\r\n\r\nFor
+    support, see ticket/IRC/email information on http://t.co/nE5akSwLqM"
+  website_url: http://docutils.sourceforge.net/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8480/LI68uG-2_normal.jpg
+  detection_source_url: https://github.com/bob-wise0/requirements.txt.vim/blob/master/examples/dev-requirements.txt
+  detection_source: examples/dev-requirements.txt
+  last_updated_by: raimon
+  last_updated_on: 2021-03-31 10:36:19.000000000 Z
+- name: pep8
+  description: The Python Software Foundation. For help with Python code, see comp.lang.python.
+  website_url: https://www.python.org/dev/peps/pep-0008/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4836/pUBY5pVj_normal.png
+  detection_source_url: https://github.com/bob-wise0/requirements.txt.vim/blob/master/examples/dev-requirements.txt
+  detection_source: examples/dev-requirements.txt
+  last_updated_by: raimon
+  last_updated_on: 2021-03-31 10:36:19.000000000 Z
 - name: rake
   description: Rake is a Make-like program implemented in Ruby
   package_url: https://rubygems.org/rake
@@ -100,5 +173,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/bob-wise0/requirements.txt.vim/blob/master/Gemfile.lock
   detection_source: Gemfile
+  last_updated_by: raimon
+  last_updated_on: 2020-10-03 11:13:29.000000000 Z
